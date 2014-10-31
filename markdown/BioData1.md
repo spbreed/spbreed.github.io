@@ -10,6 +10,7 @@ Andrew Connell
 [AngularJS based SPHosted App - PluralSight](http://pluralsight.com/courses/building-sharepoint-apps-spa-angularjs)
 
 
+
 Thanks to
 --------- 
 
@@ -19,6 +20,7 @@ John Papa
 
 [HotTowel AngularJS App](http://www.johnpapa.net/hot-towel-angular/)
 [HotTowel AngularJS App - Plural Sight](http://www.pluralsight.com/courses/table-of-contents/build-apps-angular-breeze)
+
 
 
 Thanks to
