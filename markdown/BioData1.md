@@ -1,6 +1,2 @@
-Thanks to
---------- 
-
-
-Andrew Connell
+> Andrew Connell
 
