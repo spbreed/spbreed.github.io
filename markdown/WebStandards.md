@@ -15,4 +15,5 @@ Web Standards- Adoption
 
 * Adopted by few big names including Microsoft
 
+
 ![AppModel](../images/SocialApps.PNG)
