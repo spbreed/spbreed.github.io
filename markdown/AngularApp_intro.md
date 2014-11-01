@@ -14,8 +14,8 @@ Dependency Injection
 ![DependencyInjection](http://spbreed.files.wordpress.com/2014/06/step38_serverclient.png?w=676&h=293)
 
 
-> ##### HTML Templating
-        ---------------
+> HTML Templating
+  ---------------
 
 * Over the past few years, Single Page App’s (SPA’s) are gaining of a lot of traction from front end developers and end users. HTML templating feature in Angular makes it possible to easily switch the HTML in SPA’s.
 
