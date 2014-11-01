@@ -8,7 +8,6 @@ Web Standards
 * Helps to develop powerful, flexible, modular, expressive enterprise applications using HTML, Javascript and CSS
 
 
-
 Web Standards- Adoption 
 =======================
 
