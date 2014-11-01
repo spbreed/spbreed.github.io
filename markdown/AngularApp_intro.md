@@ -20,7 +20,7 @@ Dependency Injection
 
 > ##### TwoWay Binding
 
-* Fellow Silverlight developers can understand the complexity of two-way binding using propertychange events back in the old days. But AngularJS databinding makes this right OOB
+* Fellow Silverlight developers can understand the complexity of two-way binding using propertychange events back in the old days. But AngularJS databinding makes this right OOB.
 
 
 > ##### Community Support
