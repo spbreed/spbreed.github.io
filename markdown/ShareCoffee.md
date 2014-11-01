@@ -1,16 +1,11 @@
-![Karthik Ramamoorthy](../images/kart.png)
+ShareCoffee
+-----------
 
-Karthik Ramamoorthy
--------------------
+> ShareCoffee is a lightweight library for calling SharePoint services
 
-Senior Consultant at Greystone Solutions, Boston.
-
-MCTS, MCDS, MCP
-
-![SPApps](../images/spapps.png)
-
-[@spbreed](http://www.twitter.com/spbreed)
-
-[http://spbreed.wordpress.com](http://spbreed.wordpress.com)
-
-[https://github.com/spbreed](http://github.com/spbreed)
+1. App Web
+2. Host web
+3. Chrome Controls
+4. User Profiles
+5. Search
+6. Supports AngularJS

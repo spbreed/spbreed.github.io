@@ -1,16 +1,16 @@
-![Karthik Ramamoorthy](../images/kart.png)
+What is Protractor
+=================
 
-Karthik Ramamoorthy
--------------------
+> An AngularJS E2E Testing Framework
+> Introduced during AngularJS 1.2 and Beyond presentation
+> A new replacement of the existing E2E Testing framework
 
-Senior Consultant at Greystone Solutions, Boston.
 
-MCTS, MCDS, MCP
 
-![SPApps](../images/spapps.png)
+Features:
+=========
 
-[@spbreed](http://www.twitter.com/spbreed)
-
-[http://spbreed.wordpress.com](http://spbreed.wordpress.com)
-
-[https://github.com/spbreed](http://github.com/spbreed)
+> Allows running tests targeting remote addresses, No longer need to have test files on the server being tested
+> Built on WebdriverJS and Selenium Server
+> New syntax when writing tests
+> Can use Jasmine or Mocha to write test suites
