@@ -1,5 +1,5 @@
 Web Standards
--------------
+=============
 
 * Web standards are the formal, non-proprietary standards and other technical specifications that define and describe aspects of the World Wide Web.
 
@@ -9,7 +9,7 @@ Web Standards
 
 
 Web Standards- Adoption 
------------------------
+=======================
 
 * AppModel is now a standard in developing and deploying apps
 
