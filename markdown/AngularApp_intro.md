@@ -24,7 +24,8 @@ HTML Templating
 * Fellow Silverlight developers can understand the complexity of two-way binding using propertychange events back in the old days. But AngularJS databinding makes this right OOB.
 
 
-> ##### Community Support
+Community Support
+-----------------
 
 * Google continues to develop and maintain the library. Large community of developers has embraced the framework so ample support is available on Stackoverflow and AngularJS official site.
 
