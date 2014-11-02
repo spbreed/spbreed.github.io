@@ -14,13 +14,3 @@ Features:
 2. Built on WebdriverJS and Selenium Server
 3. New syntax when writing tests
 4. Can use Jasmine or Mocha to write test suites
-
-
-
-How it Works:
--------------
-
-1. Runs on NodeJS
-2. Protractor uses WebDriver API to send test cases to Web Server
-3. Web Server interpretter compiles it down to JSON and passed it to browser
-![Protactor](../images/componenents.png)
