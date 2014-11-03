@@ -16,10 +16,6 @@ Features
 4. Can use Jasmine or Mocha to write test suites
 
 
-
-:title:text
-:main:name
-
 How it Works
 -------------
 
