@@ -54,8 +54,6 @@ Jasmine features
   -  element.By.linkText('Go Home')
   -  etc
 
-
-
 - Methods
   -	 clear()
   -  SendKeys()
