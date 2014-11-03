@@ -24,3 +24,17 @@ How it Works
 2. Protractor uses WebDriver API to send test cases to Web Server
 3. Web Server interpretter compiles it down to JSON and passed it to browser
 ![Protactor](../images/components.png)
+
+
+Installation
+------------
+
+1. test
+2.Tst
+
+
+
+Running Test Scripts
+--------------------
+
+1. 
