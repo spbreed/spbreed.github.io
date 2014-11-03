@@ -29,8 +29,12 @@ How it Works
 Installation
 ------------
 
-1. test
-2.Tst
+1. [Install NodeJS server](http://nodejs.org/download/) 
+2. ![Windows](../images/NodeJS_Install.png)
+3. Install Protractor via Node Package Manager (NPM) (This is similar to NUGET)
+4. Install Selenium Server
+	```` npm install protractor --save-dev ````
+	```` .bin\webdriver-manager update ````
 
 
 
