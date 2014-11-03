@@ -36,7 +36,7 @@ Installation
 4. Install Selenium Server
 	
 	````powershell 
-	npm install protractor --save-dev ````
+	npm install protractor --save-dev
 	
 	 .bin\webdriver-manager update 
 	````
