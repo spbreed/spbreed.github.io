@@ -7,7 +7,7 @@ What is Protractor
 
 
 
-Features:
+Features
 ---------
 
 1. Allows running tests targeting remote addresses, No longer need to have test files on the server being tested
@@ -17,10 +17,10 @@ Features:
 
 
 
-How it Works:
+How it Works
 -------------
 
-1. Runs on NodeJS
+1. Runs on NodeJS server
 2. Protractor uses WebDriver API to send test cases to Web Server
 3. Web Server interpretter compiles it down to JSON and passed it to browser
-![Protactor](../images/componenents.png)
+![Protactor](../images/components.png)
