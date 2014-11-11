@@ -1,3 +1,4 @@
+
 Why Angular
 -----------
 
@@ -32,8 +33,6 @@ Community Support
 > ##### Error Handling
 
 * Troubleshooting and error handling JS apps is pain. AngularJS apps can be configured with Logging and Error handling capabilities.
-
-
 
 
 Where I Learned AngularJS
