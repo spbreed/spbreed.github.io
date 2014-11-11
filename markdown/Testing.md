@@ -7,7 +7,6 @@ Testing Javacript Apps
 4. Continous improvement
 
 
-
 Popular AngularJS Testing frameworks
 ------------------------------------
 
@@ -24,7 +23,6 @@ Popular AngularJS Testing frameworks
 	- Jasmine
 	- Mocha
 	- QUnit
-
 
 
 What tool to use?

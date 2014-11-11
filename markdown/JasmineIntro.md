@@ -9,7 +9,6 @@ What is Jasmine
 - Jasmine will provide methods to deal with DOM events.
 
 
-
 Jasmine Specification
 ---------------------
 
@@ -29,7 +28,6 @@ describe('angularjs homepage', function() {
     expect(greeting.getText()).toEqual('Hello Julie!');
   });
 ````
-
 
 
 Jasmine features
