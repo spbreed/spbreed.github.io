@@ -7,7 +7,7 @@ Testing Javacript Apps
 4. Continous improvement
 
 
-
+<<<<<<< HEAD
 Popular AngularJS Testing frameworks
 ------------------------------------
 
@@ -15,6 +15,11 @@ Popular AngularJS Testing frameworks
   - Protractor
   - Karma
   - Server-Side testing
+=======
+
+Testing frameworks
+------------------
+>>>>>>> parent of 80e7bd5... Test
 
 - Javascript Engines
   - Selenium
@@ -26,19 +31,47 @@ Popular AngularJS Testing frameworks
 	- QUnit
 
 
-
+<<<<<<< HEAD
 What tool to use?
 -----------------
+=======
 
-- Testing Page loads and End to End testing
-  - Use Protractor
-  - A Web Driver can run a full integration test through any given URL
-  - No server side dependencies
+Jasmine Specification
+---------------------
 
-- Unit testing
-  - Use Karma
-  - Test files should be hosted inside the server
+1. "Describe" defines  functional blocks
+2. "It" describes  specification
+3. "Expect" defines expectations
 
-- Load Testing 
-  - Use Server side testing
-  
+````javascript
+describe('angularjs homepage', function() {
+  it('should greet the named user', function() {
+    browser.get('http://www.angularjs.org');
+
+    element(by.model('yourName')).sendKeys('Julie');
+
+    var greeting = element(by.binding('yourName'));
+
+    expect(greeting.getText()).toEqual('Hello Julie!');
+  });
+````
+
+
+>>>>>>> parent of 80e7bd5... Test
+
+Jasmine features
+----------------
+
+- Locating HTML
+  -  element.By.className('redBtn')
+  -	 element.By.css('.redBtn')
+  -  element.By.id('loginButton')
+  -  element.By.linkText('Go Home')
+  -  etc
+
+- Methods
+  -	 clear()
+  -  SendKeys()
+  -  click()
+  -  getLocation()
+  -  etc
