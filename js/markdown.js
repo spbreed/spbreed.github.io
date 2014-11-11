@@ -125,6 +125,8 @@
 
 		options = getSlidifyOptions( options );
 
+		markdown = markdown.replace(/(\r\n|\r)/g, '\n');
+		
 		var separatorRegex = new RegExp( options.separator + ( options.verticalSeparator ? '|' + options.verticalSeparator : '' ), 'mg' ),
 			horizontalSeparatorRegex = new RegExp( options.separator );
 
