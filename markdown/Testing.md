@@ -8,8 +8,13 @@ Testing Javacript Apps
 
 
 
-Testing frameworks
-------------------
+Popular AngularJS Testing frameworks
+------------------------------------
+
+- Test Tools
+  - Protractor
+  - Karma
+  - Server-Side testing
 
 - Javascript Engines
   - Selenium
@@ -22,41 +27,17 @@ Testing frameworks
 
 
 
-Jasmine Specification
----------------------
+What tool to use?
+-----------------
 
-1. "Describe" defines  functional blocks
-2. "It" describes  specification
-3. "Expect" defines expectations
+- Testing Page loads and End to End testing
+  - Use Protractor
+  - A Web Driver can run a full integration test through any given URL
+  - No server side dependencies
 
-````javascript
-describe('angularjs homepage', function() {
-  it('should greet the named user', function() {
-    browser.get('http://www.angularjs.org');
+- Unit testing
+  - Use Karma
+  - Test files should be hosted inside the server
 
-    element(by.model('yourName')).sendKeys('Julie');
-
-    var greeting = element(by.binding('yourName'));
-
-    expect(greeting.getText()).toEqual('Hello Julie!');
-  });
-````
-
-
-
-Jasmine features
-----------------
-
-- Locating HTML
-  -  element.By.className('redBtn')
-  -	 element.By.css('.redBtn')
-  -  element.By.id('loginButton')
-  -  element.By.linkText('Go Home')
-  -  etc
-
-- Methods
-  -	 clear()
-  -  SendKeys()
-  -  click()
-  -  getLocation()
-  -  etc
+- Load Testing 
+  - Use Server side testing
