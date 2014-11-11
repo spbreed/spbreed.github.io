@@ -13,8 +13,9 @@ Installation
 
 1. [Install NodeJS server](http://nodejs.org/download/) 
 2. ![Windows](../images/NodeJS_Install.png)
-3. Install Protractor via Node Package Manager (NPM) (This is similar to NUGET)
-4. Install Selenium Server and update Web-Driver
+3. Create a NodeJS project in Visual studio
+4. Install Protractor via Node Package Manager (NPM) (This is similar to NUGET)
+5. Install Selenium Server and update Web-Driver
 	
 ````powershell  
 # Install protractor from NPM. Run this on the node project folder
