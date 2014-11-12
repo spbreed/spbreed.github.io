@@ -13,16 +13,20 @@ Installation
 
 1. [Install NodeJS server](http://nodejs.org/download/) 
 2. ![Windows](../images/NodeJS_Install.png)
-3. Create a NodeJS project in Visual studio
+3. Create a NodeJS project in Visual studiodir
 4. Install Protractor via Node Package Manager (NPM) (This is similar to NUGET)
 5. Install Selenium Server and update Web-Driver
 	
 ````powershell  
 # Install protractor from NPM. Run this on the node project folder
-npm install protractor --save-dev
+npm install protractor@1.3.1 --save-dev
 
 #Run this from the project folder to update web driver
-node_modules\.bin\webdriver-manager update
+node_modules\.bin\webdriver-manager update --ie
+
+#Add Screenshot capabilities to protractor
+npm install protractor-html-screenshot-reporter --save-dev
+
 ````
 
 
