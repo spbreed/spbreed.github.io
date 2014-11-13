@@ -9,8 +9,6 @@ MCTS, MCDS, MCP
 
 ![SPApps](../images/spapps.png)
 
-[@spbreed](http://www.twitter.com/spbreed)
-
-[http://spbreed.wordpress.com](http://spbreed.wordpress.com)
+[@spbreed](http://www.twitter.com/spbreed) [http://spbreed.wordpress.com](http://spbreed.wordpress.com)
 
 [https://github.com/spbreed](http://github.com/spbreed)
