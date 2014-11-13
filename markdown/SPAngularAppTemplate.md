@@ -14,4 +14,4 @@ To install SPAngularAppTemplate
 PM> Install-Package SPAngularAppTemplate
 ````
 
-Click here to watch this in action(http://spbreed.github.io/#/3)
+[Click here to watch this in action](http://spbreed.github.io/#/3)
