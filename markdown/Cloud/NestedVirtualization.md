@@ -15,6 +15,7 @@ Hosting evolution
 -----------------
 
   > Nested Virtualization
+  
    - Multiple VM's vs VM's inside VM
    - Modern hypervisors are highly scalable and high performant
     - Abstracts the underlying hypervisor, networking & storage to easily leverage capacity from any cloud
