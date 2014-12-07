@@ -1,63 +1,63 @@
-![Netflix](../images/cloud/Netflix/nf1.png)
+![netflix](../images/cloud/netflix/nf1.png)
 
 
 
-![Netflix](../images/cloud/Netflix/nf2.png)
+![netflix](../images/cloud/netflix/nf2.png)
 
 
 
-![Netflix](../images/cloud/Netflix/nf3.png)
+![netflix](../images/cloud/netflix/nf3.png)
 
 
 
-![Netflix](../images/cloud/Netflix/nf4.png)
+![netflix](../images/cloud/netflix/nf4.png)
 
 
 
-![Netflix](../images/cloud/Netflix/nf5.png)
+![netflix](../images/cloud/netflix/nf5.png)
 
 
 
-![Netflix](../images/cloud/Netflix/nf6.png)
+![netflix](../images/cloud/netflix/nf6.png)
 
 
 
-![Netflix](../images/cloud/Netflix/nf7.png)
+![netflix](../images/cloud/netflix/nf7.png)
 
 
 
-![Netflix](../images/cloud/Netflix/nf8.png)
+![netflix](../images/cloud/netflix/nf8.png)
 
 
 
-![Netflix](../images/cloud/Netflix/nf9.png)
+![netflix](../images/cloud/netflix/nf9.png)
 
 
 
 
-![Netflix](../images/cloud/Netflix/nf10.png)
+![netflix](../images/cloud/netflix/nf10.png)
 
 
 
-![Netflix](../images/cloud/Netflix/nf11.png)
+![netflix](../images/cloud/netflix/nf11.png)
 
 
 
-![Netflix](../images/cloud/Netflix/nf12.png)
+![netflix](../images/cloud/netflix/nf12.png)
 
 
 
-![Netflix](../images/cloud/Netflix/nf13.png)
+![netflix](../images/cloud/netflix/nf13.png)
 
 
 
-![Netflix](../images/cloud/Netflix/nf14.png)
+![netflix](../images/cloud/netflix/nf14.png)
 
 
 
-![Netflix](../images/cloud/Netflix/nf15.png)
+![netflix](../images/cloud/netflix/nf15.png)
 
 
 
-![Netflix](../images/cloud/Netflix/nf16.png)
+![netflix](../images/cloud/netflix/nf16.png)
 
