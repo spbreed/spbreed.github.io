@@ -1,34 +1,40 @@
-How it Works
--------------
+Modern Cloud Computing
+----------------------
 
-1. Runs on NodeJS server
-2. Protractor uses WebDriver API to send test cases to Web Server
-3. Web Server interpretter compiles it down to JSON and passed it to browser
-![Protactor](../images/components.png)
+>  To build Highly Scalable, highly available, resilient and dynamic applications
+
+1. Hosting Evolution
+2. Database Evolution
+3. Application architecture evolution
+4. High availability
+5. Geo-Aware networks
 
 
 
-Installation
-------------
+Hosting evolution
+-----------------
 
-1. [Install NodeJS server](http://nodejs.org/download/) 
-2. ![Windows](../images/NodeJS_Install.png)
-3. Create a NodeJS project in Visual studio
-4. Install Protractor via Node Package Manager (NPM) (This is similar to NUGET)
-5. Install Selenium Server and update Web-Driver
-6. For manual downloads [http://selenium-release.storage.googleapis.com/index.html](http://selenium-release.storage.googleapis.com/index.html)
-	
-````powershell  
-# Install protractor from NPM. Run this on the node project folder
-npm install protractor@1.3.1 --save-dev
+  > Nested Virtualization
+   - Multiple VM's vs VM's inside VM
+   - Modern hypervisors are highly scalable and high performant
+    - Abstracts the underlying hypervisor, networking & storage to easily leverage capacity from any cloud
+    - Automate the multi-VM environment. Eg: clone, snapshot, auto-deploy and self-service provision
+    - Cost effective solution
+  ![nested_virtualization](../images/cloud/nested_virtualization.png)
 
-#Run this from the project folder to update web driver
-node_modules\.bin\webdriver-manager update --ie
 
-#Add Screenshot capabilities to protractor
-npm install protractor-html-screenshot-reporter --save-dev
 
-````
+Hosting evolution
+-----------------
+
+  > Dockers
+   - Multiple VM's vs VM's inside VM
+   - Modern hypervisors are highly scalable and high performant
+    - Abstracts the underlying hypervisor, networking & storage to easily leverage capacity from any cloud
+    - Automate the multi-VM environment. Eg: clone, snapshot, auto-deploy and self-service provision
+    - Cost effective solution
+  ![nested_virtualization](../images/cloud/nested_virtualization.png)
+  
 
 
 

@@ -22,16 +22,11 @@
 
 
 
-![netflix](../images/cloud/netflix/nf7.png)
-
-
-
 ![netflix](../images/cloud/netflix/nf8.png)
 
 
 
 ![netflix](../images/cloud/netflix/nf9.png)
-
 
 
 
@@ -60,4 +55,8 @@
 
 
 ![netflix](../images/cloud/netflix/nf16.png)
+
+
+
+![netflix](../images/cloud/netflix/nf7.png)
 
