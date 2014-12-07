@@ -17,11 +17,11 @@ Hosting evolution
   > Nested Virtualization
 
    - Multiple VM's vs VM's inside VM
-   - Modern hypervisors are highly scalable and high performant
+   - Modern hypervisors - highly scalable & performant
     - Abstracts the underlying hypervisor, networking & storage to easily leverage capacity from any cloud
     - Automate the multi-VM environment. Eg: clone, snapshot, auto-deploy and self-service provision
     - Cost effective solution
-  ![nested_virtualization](../images/cloud/nested_virtualization.png)
+    ![nested_virtualization](../images/cloud/nested_virtualization.png)
   
 
 
