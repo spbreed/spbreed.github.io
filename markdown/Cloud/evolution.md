@@ -135,7 +135,6 @@ NoSQL databases
 
 NoSQL - Access
 -------------- 
-> NoSQL database - Access
 - NoSQL databases often provide simple interfaces to store and query data
 - APIs offer access to low level data manipulation and selection methods
 - protocols or HTTP REST APIs with JSON inside
@@ -195,6 +194,7 @@ mongo> db.user.save({
 ````
 
 
+
 NoSQL-Query
 ----------
 - use find to filter on any attribute or subattribute(s):
@@ -210,6 +210,7 @@ mongo> db.user.find({ 
 });
 
 ````
+
 
 
 NoSQL-Query
@@ -230,6 +231,8 @@ mongo> db.user.find({ 
 });
 
 ````
+
+
 
 NoSQL-MapReduce
 ---------------
@@ -252,3 +255,150 @@ map = function (doc) {
 };
 
 ````
+
+
+
+
+![Data](../images/cloud/nosql/nosql3.png)
+
+
+
+Companies Depending on NoSQL Databases
+--------------------------------------
+
+Many big players adopted NoSQL
+
+- Google uses BIGTABLE
+- NETFLIX uses CASSANDRA
+- Amazon uses DynamoDB
+- Facebook uses CASSANDRA
+- Foursquare uses MongoDB
+- Twitter uses HADOOP, PIG, CASSANDRA etc
+- Mozilla uses HBASE
+- LinkedIn uses VOLDEMORT
+- Adobe uses HBASE
+
+
+
+Cache - Memcached
+-----------------
+
+![Cache](../images/cloud/cache/cache1.png)
+
+
+
+![Cache](../images/cloud/cache/cache2.png)
+
+
+
+![Cache](../images/cloud/cache/cache3.png)
+
+
+
+![Cache](../images/cloud/cache/cache4.png)
+
+
+
+![Cache](../images/cloud/cache/cache5.png)
+
+
+
+![Cache](../images/cloud/cache/cache6.png)
+
+
+
+![Cache](../images/cloud/cache/cache7.png)
+
+
+
+Cache - Redis
+-------------
+
+- REmote DIctionary Server(REDIS)
+- Its a NoSQL(key–value store)
+- In memory database - Supports persistence
+- Lots of client Lib(Objective-C, C#, Java, node.js, Erlang, Ruby…)
+- Extremely fast and atomic
+- High availability and scalability
+
+
+
+Cache - Redis
+-------------
+![Cache](../images/cloud/cache/cache9.png)
+
+
+
+Cache - Redis
+-------------
+![Cache](../images/cloud/cache/cache8.png)
+
+
+
+Cache-Features
+--------------
+- Performance and Scalabilty
+  - Cache performance
+  - Bulk operations
+  - Multiple NIC binding
+  - Indexes
+- Cache Toplogies 
+  - Mirrored Cache
+  - Replicated cache
+  - Partitioned cache
+  - Local cache
+- Authentication/Encryption
+- Cache administration
+- Third party integration
+
+
+
+
+
+Networking 
+-----------
+- Site- Site VPN
+- DirectConnect or ExpressRoute
+![Network](../images/cloud/network/networking2.png)
+
+
+
+Networking - ExpressRoute
+-------------------------
+![Network](../images/cloud/network/networking3.png)
+
+
+
+Networking - Geo Replication
+----------------------------
+- Auto scaling
+- Geo Replication
+![Network](../images/cloud/network/networking6.png)
+
+
+
+Networking - Geo Load balancing
+-------------------------------
+![Network](../images/cloud/network/networking7.png)
+
+
+
+Modern - Web Application
+------------------------
+ 
+ Stateless Architecture
+ =======================
+  - Scalibility
+  - REST services are stateless
+  - Save it on client rather than server
+
+
+
+Modern - Web Application
+------------------------
+>  To build Highly Scalable, highly available, resilient and dynamic applications
+
+![Network](../images/cloud/modern/modern1.png)
+
+
+
