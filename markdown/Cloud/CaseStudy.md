@@ -59,4 +59,3 @@
 
 
 ![netflix](../images/cloud/netflix/nf7.png)
-

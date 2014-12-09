@@ -42,8 +42,7 @@ Hosting evolution
 Hosting evolution
 -----------------
 
-  > Dockers
-   - Docker is an open-source project to easily create lightweight, portable, self-sufficient containers from any application. The same container that a developer builds and tests on a laptop can run at scale, in production, on VMs, bare metal, OpenStack clusters, public clouds and more.
+  - Docker is an open-source project to easily create lightweight, portable, self-sufficient containers from any application. The same container that a developer builds and tests on a laptop can run at scale, in production, on VMs, bare metal, OpenStack clusters, public clouds and more.
 
 ![Dockers](../images/cloud/docker/docker1.png)
 
@@ -73,7 +72,7 @@ Hosting evolution
 
 
 
-![Dockers](../images/cloud/docker/docker9.png)
+![Dockers](../images/cloud/docker/docker7.png)
 
 
 
@@ -92,13 +91,18 @@ Database Evolution
 
 
 
- > Relational Databases
-
+Relational Databases
+--------------------
  - data are stored in tables with typed columns 
  - all records in a table are homogenously structured and have the same columns and data types
  - tables are flat (no hierchical data in a table)
  - columns have primitive data types: multi-valued data are not supported
  - users are required to define the schema elements before data can be stored
+
+
+
+Relational Databases
+--------------------
  - inserted data must match the schema or the database will reject it
  - to get our data back, we need to read from multiple tables, either with or without joins 
  - to make multi-table (or other multi-record) operations behave predictably in concurrency situations 
@@ -106,8 +110,8 @@ Database Evolution
 
 
 
-> Relational Databases criticisms
-
+Relational Databases criticisms
+-------------------------------
 - lots of new databases have emerged in the past few years, 
   - often because object-relational mapping can be complex or costly
   - relational databases do not play well with dynamically structured data and often- varying schemas
@@ -117,79 +121,134 @@ Database Evolution
 
 
 
-Database Evolution
-------------------
-> NoSQL databases
+NoSQL databases
+---------------
 
 - provides alternative solutions for some of the mentioned problems
 - NoSQL databases are generally non- relational, meaning they do not follow the relational model
-- Sacrificing complex and costly features, such as  as query languages, query planners, referential integrity, joins, ACID guarantees for cross-record operations etc.
+- Sacrificing query languages, query planners, referential integrity, joins, ACID guarantees for cross-record operations etc.
 - they do not provide tables with flat fixed- column records
-- instead, it is common to work with self- contained aggregates (which may include hierarchical data) or even BLOBs 
+- self- contained aggregates or even BLOBs 
 - Easy migration and scaling
 
 
 
-Database Evolution
-------------------
+NoSQL - Access
+-------------- 
 > NoSQL database - Access
-
-- NoSQL databases are generally non- relational, meaning they do not follow the relational model
-- this eliminates the need for complex object-relational mapping and many data normalisation requirements
-- working on aggregates and BLOBs also led to sacrificing complex and costly features, such as query languages, query planners, referential integrity, joins, ACID guarantees for cross-record operations etc. in many of these databases
-- they do not provide tables with flat fixed- column records 
-- instead, it is common to work with self- contained aggregates (which may include hierarchical data) or even BLOBs
-
-1. Selenium Server Configuration
-2. Where your spec files are located
-3. Browser capabilities required by spec files
-4. The Base Url for your spec files
-5. Jasmine Node Configuration
+- NoSQL databases often provide simple interfaces to store and query data
+- APIs offer access to low level data manipulation and selection methods
+- protocols or HTTP REST APIs with JSON inside
+- databases with HTTP APIs are web-enabled and can be run as internet-facing services
 
 
 
-Example Configuration
----------------------
+NoSQL - Distributed
+------------------- 
+- several NoSQL databases can be run in a distributed fashion, providing autoscalability and failover capabilities
+- replication between distributed nodes is often lazy, meaning the database is eventually consistent
+- Used as
+  - document stores
+  - key-value stores
+  - wide column/column family stores
+  - graph databases
+
+
+
+NoSQL-Examples
+--------------
 
 ````javascript
-// An example configuration file.
-exports.config = {
-  // Do not start a Selenium Standalone sever - only run this using chrome.
-  chromeOnly: true,
-  chromeDriver: 'node_modules/protractor/selenium/chromedriver',
 
-  //baseURL
+// NoSQL Object
+{
+  "id" : 1234,
+  "name" : {
+    "first" : "foo",
+    "last" : "bar"
+  },
+  "topics": [
+    "skating",
+    "music"
+  ]
+}
 
- // baseUrl: 'https://spbreed02.sharepoint.com/sites/appdev/_layouts/15/appredirect.aspx?instance_id={7000E10A-58A6-4668-AEDC-0B1FD6091280}',
-
-  // Capabilities to be passed to the webdriver instance.
-  capabilities: {
-    'browserName': 'chrome'
-  },
-
-  // Spec patterns are relative to the current working directly when
-  // protractor is called.
-  specs: ['angularapp_spec.js'],
-
-  // Options to be passed to Jasmine-node.
-  jasmineNodeOpts: {
-    showColors: true,
-    defaultTimeoutInterval: 30000
-    }
-
-};
 ````
 
 
 
-Running Test Scripts
---------------------
+NoSQL-Save
+----------
 
-1. Create a NodeJS project in Visual Studio
-2. Install protractor and update the web driver
-3. Run the configuration file
+- To store the user object, use save:
 
-````powershell 
-#Run the sample configuration file 
-node_modules\.bin\protractor chromeOnlyConf.js
+````javascript
+//Save to mongoDB
+mongo> db.user.save({
+  "_id" : 1234,
+  "name" : {
+    "first" : "foo",
+    "last" : "bar"
+  },
+  "topics" : [ "skating", "music" ]
+});
+````
+
+
+NoSQL-Query
+----------
+- use find to filter on any attribute or subattribute(s):
+
+````javascript
+
+//Select
+mongo> db.user.find({ 
+  "_id" : 1234
+});
+mongo> db.user.find({ 
+  "name.first" : "foo"
+});
+
+````
+
+
+NoSQL-Query
+----------
+
+````javascript
+
+//Select
+mongo> db.user.find({ 
+  "$or" : [ 
+    { "name.first" : "foo"},
+    { 
+      "topics" : { 
+        "$in" : [ "skating" ] 
+      }
+    }
+  ]
+});
+
+````
+
+NoSQL-MapReduce
+---------------
+
+- map-reduce is a general framework, present in many No-SQL databases.
+- map-reduce requires at least a map function applied on each (changed) document to filter out irrelevant documents,
+  and to emit data for all documents of interest
+- it is actual programming, not writing queries!
+
+> Filtering with map
+````javascript
+map = function (doc) {
+  for (i = 0; 
+       i < doc.topics.length; i++) {
+    if (doc.topics[i] === 'music') {
+      emit(null, doc);
+      return; // done
+    }
+  }
+};
+
 ````
