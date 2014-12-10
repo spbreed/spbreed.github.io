@@ -242,8 +242,8 @@ NoSQL-MapReduce
   and to emit data for all documents of interest
 - it is actual programming, not writing queries!
 
-> Filtering with map
 ````javascript
+//filtering with map
 map = function (doc) {
   for (i = 0; 
        i < doc.topics.length; i++) {
