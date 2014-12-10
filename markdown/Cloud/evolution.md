@@ -398,7 +398,7 @@ Modern - Web Application
 ------------------------
 >  To build Highly Scalable, highly available, resilient and dynamic applications
 
-![Network](../images/cloud/modern/modern1.png)
+![Network](../images/cloud/modern/modern1.PNG)
 
 
 

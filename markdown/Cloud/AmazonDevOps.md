@@ -1,7 +1,7 @@
 Amazon Stack Overview
 ---------------------
 
-![Amazon](../images/cloud/AWSSstack.png)
+![Amazon](../images/cloud/AWSStack.png)
 
 
 
