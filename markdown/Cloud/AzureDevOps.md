@@ -23,23 +23,34 @@ Powershell
 
 
 
+Powershell
+----------
 ![Azure](../images/cloud/azure/azure2.png)
 
 
 
+Powershell
+----------
 ![Azure](../images/cloud/azure/azure3.png)
 
 
 
+Powershell
+----------
 ![Azure](../images/cloud/azure/azure4.png)
 
 
 
+Powershell
+----------
 ![Azure](../images/cloud/azure/azure5.png)
 
 
 
+Powershell
+----------
 ![Azure](../images/cloud/azure/azure6.png)
+
 
 
 MAML
@@ -48,26 +59,38 @@ MAML
 
 
 
+MAML
+----
 ![Azure](../images/cloud/azure/azure8.png)
 
 
 
+MAML
+----
 ![Azure](../images/cloud/azure/azure9.png)
 
 
 
+MAML
+----
 ![Azure](../images/cloud/azure/azure10.png)
 
 
 
+MAML
+----
 ![Azure](../images/cloud/azure/azure11.png)
 
 
 
+MAML
+----
 ![Azure](../images/cloud/azure/azure12.png)
 
 
 
+MAML
+----
 ![Azure](../images/cloud/azure/azure15.png)
 
 
@@ -77,6 +100,8 @@ X-PLAT
 
 
 
+X-PLAT
+------
 ![Azure](../images/cloud/azure/azure17.png)
 
 
