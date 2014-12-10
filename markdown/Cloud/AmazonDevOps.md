@@ -188,6 +188,10 @@ Chef
 
 
 
+![Amazon](../images/cloud/aws/aws70.png)
+
+
+
 ![Amazon](../images/cloud/aws/aws67.png)
 
 
@@ -239,6 +243,10 @@ Puppet
 
 
 ![Amazon](../images/cloud/aws/aws53.png)
+
+
+
+![Amazon](../images/cloud/aws/aws69.png)
 
 
 
