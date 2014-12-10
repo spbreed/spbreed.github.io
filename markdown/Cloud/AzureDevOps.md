@@ -1,7 +1,7 @@
 Azure Stack Overview
 ---------------------
 
-![Azure](../images/cloud/azurestack.png)
+![Azure](../images/cloud/AzureStack.png)
 
 
 
