@@ -106,14 +106,20 @@ X-PLAT
 
 
 
+X-PLAT
+------
 ![Azure](../images/cloud/azure/azure18.png)
 
 
 
+X-PLAT
+------
 ![Azure](../images/cloud/azure/azure19.png)
 
 
 
+X-PLAT
+------
 ![Azure](../images/cloud/azure/azure20.png)
 
 

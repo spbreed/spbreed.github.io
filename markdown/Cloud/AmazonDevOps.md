@@ -10,7 +10,7 @@ AWS- DevOps options
 
 - Cloud formation (OOB)
 - Bean stalk (OOB)
-- Ops Works (OOB)
+- OpsWorks (OOB)
 - Puppet
 - Chef
 - Asgard
@@ -128,7 +128,7 @@ AWS-Bean Stalk
 
 AWS-Bean Stalk
 --------------
-[Amazon](../images/cloud/aws/aws19.png)
+![Amazon](../images/cloud/aws/aws19.png)
 
 
 
@@ -150,79 +150,85 @@ AWS-Bean Stalk
 
 
 
-AWS-Ops Works
+AWS-OpsWorks
 -------------
 ![Amazon](../images/cloud/aws/aws23.png)
 
 
 
-AWS-Ops Works
+AWS-OpsWorks
 -------------
 ![Amazon](../images/cloud/aws/aws24.png)
 
 
 
-AWS-Ops Works
+AWS-OpsWorks
 -------------
 ![Amazon](../images/cloud/aws/aws25.png)
 
 
 
-AWS-Ops Works
+AWS-OpsWorks
 -------------
 ![Amazon](../images/cloud/aws/aws26.png)
 
 
 
-AWS-Ops Works
+AWS-OpsWorks
 -------------
 ![Amazon](../images/cloud/aws/aws27.png)
 
 
 
-AWS-Ops Works
+AWS-OpsWorks
 -------------
 ![Amazon](../images/cloud/aws/aws28.png)
 
 
 
-AWS-Ops Works
+AWS-OpsWorks
+-------------
+![Amazon](../images/cloud/aws/aws71.png)
+
+
+
+AWS-OpsWorks
 -------------
 ![Amazon](../images/cloud/aws/aws29.png)
 
 
 
-AWS-Ops Works
+AWS-OpsWorks
 -------------
 ![Amazon](../images/cloud/aws/aws30.png)
 
 
 
-AWS-Ops Works
+AWS-OpsWorks
 -------------
 ![Amazon](../images/cloud/aws/aws31.png)
 
 
 
-AWS-Ops Works
+AWS-OpsWorks
 -------------
 ![Amazon](../images/cloud/aws/aws32.png)
 
 
 
-AWS-Ops Works
+AWS-OpsWorks
 -------------
 ![Amazon](../images/cloud/aws/aws33.png)
 
 
 
-AWS-Ops Works
+AWS-OpsWorks
 -------------
 ![Amazon](../images/cloud/aws/aws34.png)
 
 
 
-AWS-Ops Works
+AWS-OpsWorks
 -------------
 ![Amazon](../images/cloud/aws/aws35.png)
 
@@ -234,8 +240,6 @@ Chef
 
 
 
-Chef
-----
 ![Amazon](../images/cloud/aws/aws37.png)
 
 
