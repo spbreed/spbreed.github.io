@@ -8,7 +8,6 @@ Azure Stack Overview
 Azure- DevOps options
 -------------------
 
-- REST API
 - Powershell
 - MAML (Azure Management Libraries)
 - X-Plat CLI
@@ -16,14 +15,6 @@ Azure- DevOps options
  - Puppet
 - Powershell DSC
 - Azure Automation workflow
-
-
-
-Azure-API
----------
-
-
-
 
 
 Powershell
