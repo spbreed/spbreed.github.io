@@ -1,90 +1,276 @@
-How it Works
--------------
-
-1. Runs on NodeJS server
-2. Protractor uses WebDriver API to send test cases to Web Server
-3. Web Server interpretter compiles it down to JSON and passed it to browser
-![Protactor](../images/components.png)
-
-
-
-Installation
-------------
-
-1. [Install NodeJS server](http://nodejs.org/download/) 
-2. ![Windows](../images/NodeJS_Install.png)
-3. Create a NodeJS project in Visual studio
-4. Install Protractor via Node Package Manager (NPM) (This is similar to NUGET)
-5. Install Selenium Server and update Web-Driver
-6. For manual downloads [http://selenium-release.storage.googleapis.com/index.html](http://selenium-release.storage.googleapis.com/index.html)
-	
-````powershell  
-# Install protractor from NPM. Run this on the node project folder
-npm install protractor@1.3.1 --save-dev
-
-#Run this from the project folder to update web driver
-node_modules\.bin\webdriver-manager update --ie
-
-#Add Screenshot capabilities to protractor
-npm install protractor-html-screenshot-reporter --save-dev
-
-````
-
-
-
-Configuration
--------------
-
-1. Selenium Server Configuration
-2. Where your spec files are located
-3. Browser capabilities required by spec files
-4. The Base Url for your spec files
-5. Jasmine Node Configuration
-
-
-
-Example Configuration
+Amazon Stack Overview
 ---------------------
 
-````javascript
-// An example configuration file.
-exports.config = {
-  // Do not start a Selenium Standalone sever - only run this using chrome.
-  chromeOnly: true,
-  chromeDriver: 'node_modules/protractor/selenium/chromedriver',
-
-  //baseURL
-
- // baseUrl: 'https://spbreed02.sharepoint.com/sites/appdev/_layouts/15/appredirect.aspx?instance_id={7000E10A-58A6-4668-AEDC-0B1FD6091280}',
-
-  // Capabilities to be passed to the webdriver instance.
-  capabilities: {
-    'browserName': 'chrome'
-  },
-
-  // Spec patterns are relative to the current working directly when
-  // protractor is called.
-  specs: ['angularapp_spec.js'],
-
-  // Options to be passed to Jasmine-node.
-  jasmineNodeOpts: {
-    showColors: true,
-    defaultTimeoutInterval: 30000
-    }
-
-};
-````
+![Amazon](../images/cloud/awsstack.png)
 
 
 
-Running Test Scripts
---------------------
+AWS- DevOps options
+-------------------
 
-1. Create a NodeJS project in Visual Studio
-2. Install protractor and update the web driver
-3. Run the configuration file
+- Cloud formation (OOB)
+- Bean stalk (OOB)
+- Ops Works (OOB)
+- Puppet
+- Chef
+- Asgard
 
-````powershell 
-#Run the sample configuration file 
-node_modules\.bin\protractor chromeOnlyConf.js
-````
+
+
+AWS-Cloud formation
+-------------------
+![Amazon](../images/cloud/aws/aws1.png)
+
+
+
+![Amazon](../images/cloud/aws/aws2.png)
+
+
+
+![Amazon](../images/cloud/aws/aws3.png)
+
+
+
+![Amazon](../images/cloud/aws/aws4.png)
+
+
+
+![Amazon](../images/cloud/aws/aws5.png)
+
+
+
+![Amazon](../images/cloud/aws/aws6.png)
+
+
+
+![Amazon](../images/cloud/aws/aws7.png)
+
+
+
+![Amazon](../images/cloud/aws/aws8.png)
+
+
+
+![Amazon](../images/cloud/aws/aws9.png)
+
+
+
+![Amazon](../images/cloud/aws/aws10.png)
+
+
+
+![Amazon](../images/cloud/aws/aws11.png)
+
+
+
+![Amazon](../images/cloud/aws/aws12.png)
+
+
+
+
+![Amazon](../images/cloud/aws/aws13.png)
+
+
+
+![Amazon](../images/cloud/aws/aws14.png)
+
+
+AWS-Bean Stalk
+--------------
+![Amazon](../images/cloud/aws/aws15.png)
+
+
+
+![Amazon](../images/cloud/aws/aws16.png)
+
+
+
+![Amazon](../images/cloud/aws/aws17.png)
+
+
+
+![Amazon](../images/cloud/aws/aws18.png)
+
+
+
+![Amazon](../images/cloud/aws/aws19.png)
+
+
+
+![Amazon](../images/cloud/aws/aws20.png)
+
+
+
+![Amazon](../images/cloud/aws/aws21.png)
+
+
+
+![Amazon](../images/cloud/aws/aws22.png)
+
+
+AWS-Ops Works
+-------------
+![Amazon](../images/cloud/aws/aws23.png)
+
+
+
+![Amazon](../images/cloud/aws/aws24.png)
+
+
+
+![Amazon](../images/cloud/aws/aws25.png)
+
+
+
+![Amazon](../images/cloud/aws/aws26.png)
+
+
+
+![Amazon](../images/cloud/aws/aws27.png)
+
+
+
+![Amazon](../images/cloud/aws/aws28.png)
+
+
+
+![Amazon](../images/cloud/aws/aws29.png)
+
+
+
+![Amazon](../images/cloud/aws/aws30.png)
+
+
+
+![Amazon](../images/cloud/aws/aws31.png)
+
+
+
+![Amazon](../images/cloud/aws/aws32.png)
+
+
+
+![Amazon](../images/cloud/aws/aws33.png)
+
+
+
+![Amazon](../images/cloud/aws/aws34.png)
+
+
+
+![Amazon](../images/cloud/aws/aws35.png)
+
+
+
+Chef
+----
+![Amazon](../images/cloud/aws/aws36.png)
+
+
+
+![Amazon](../images/cloud/aws/aws37.png)
+
+
+
+![Amazon](../images/cloud/aws/aws50.png)
+
+
+
+![Amazon](../images/cloud/aws/aws38.png)
+
+
+
+![Amazon](../images/cloud/aws/aws39.png)
+
+
+
+![Amazon](../images/cloud/aws/aws54.png)
+
+
+
+![Amazon](../images/cloud/aws/aws40.png)
+
+
+
+![Amazon](../images/cloud/aws/aws41.png)
+
+
+
+![Amazon](../images/cloud/aws/aws42.png)
+
+
+
+![Amazon](../images/cloud/aws/aws43.png)
+
+
+
+![Amazon](../images/cloud/aws/aws44.png)
+
+
+
+![Amazon](../images/cloud/aws/aws45.png)
+
+
+
+![Amazon](../images/cloud/aws/aws48.png)
+
+
+
+![Amazon](../images/cloud/aws/aws58.png)
+
+
+
+![Amazon](../images/cloud/aws/aws49.png)
+
+
+
+![Amazon](../images/cloud/aws/aws59.png)
+
+
+
+![Amazon](../images/cloud/aws/aws60.png)
+
+
+
+Puppet
+------
+![Amazon](../images/cloud/aws/aws36.png)
+
+
+
+![Amazon](../images/cloud/aws/aws53.png)
+
+
+
+![Amazon](../images/cloud/aws/aws52.png)
+
+
+
+![Amazon](../images/cloud/aws/aws56.png)
+
+
+
+![Amazon](../images/cloud/aws/aws57.png)
+
+
+
+
+Asgard
+-------
+![Amazon](../images/cloud/aws/aws61.png)
+
+
+
+![Amazon](../images/cloud/aws/aws62.png)
+
+
+
+![Amazon](../images/cloud/aws/aws65.png)
+
+
+
+![Amazon](../images/cloud/aws/aws63.png)
+
+
+
+![Amazon](../images/cloud/aws/aws64.png)
