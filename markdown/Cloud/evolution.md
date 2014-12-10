@@ -52,6 +52,7 @@ Hosting evolution
   
 
 
+
 ![Dockers](../images/cloud/docker/docker3.png)
 
 
@@ -350,8 +351,6 @@ Cache-Features
 - Authentication/Encryption
 - Cache administration
 - Third party integration
-
-
 
 
 
