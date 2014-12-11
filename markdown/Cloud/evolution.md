@@ -1,7 +1,7 @@
 Modern Cloud Computing
 ----------------------
 
->  To build Highly Scalable, highly available, resilient and dynamic applications
+>  To build Highly Scalable, highly available, resilient and distributed applications
 
 1. Hosting Evolution
 2. Database Evolution
