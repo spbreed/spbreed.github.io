@@ -48,31 +48,44 @@ Hosting evolution
 
 
 
+Docker
+------
 ![Dockers](../images/cloud/docker/docker2.png)
   
 
 
-
+Docker
+------
 ![Dockers](../images/cloud/docker/docker3.png)
 
 
 
+Docker
+------
 ![Dockers](../images/cloud/docker/docker4.png)
 
 
 
+Docker
+------
 ![Dockers](../images/cloud/docker/docker5.png)
 
 
 
+Docker
+------
 ![Dockers](../images/cloud/docker/docker6.png)
 
 
 
+Docker
+------
 ![Dockers](../images/cloud/docker/docker8.png)
 
 
 
+Docker
+------
 ![Dockers](../images/cloud/docker/docker7.png)
 
 
