@@ -3,8 +3,7 @@ Agenda
 
 1. Netflix - A case Study
 2. Modern Cloud Computing
-3. AWS vs Azure via Gartner
-4. Role of DevOps
-5. DevOps in AWS an Overview
-6. What Azure offers to DevOps
-7. DevOps - Consideration and Strategies
+3. Role of DevOps
+4. DevOps in AWS an Overview
+5. What Azure offers to DevOps
+6. AWS vs Azure via Gartner
