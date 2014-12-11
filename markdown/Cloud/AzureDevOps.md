@@ -17,6 +17,7 @@ Azure- DevOps options
 - Azure Automation workflow
 
 
+
 Powershell
 ----------
 ![Azure](../images/cloud/azure/azure1.png)
@@ -92,6 +93,7 @@ MAML
 MAML
 ----
 ![Azure](../images/cloud/azure/azure15.png)
+
 
 
 X-PLAT
