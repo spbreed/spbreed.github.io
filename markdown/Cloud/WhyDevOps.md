@@ -1,11 +1,10 @@
-Why DevOps?
-------------
+Why DevOps now?
+---------------
 
 - Increasingly fast moving, competitive, technology driven world
 - Speed, agility and faster time to market becoming increasingly important
 - Every company becoming a technology company by stealth
-- Applications and software are the new battleground
-- Huge scope for disruption of business and entire industries
+- Being a cloud service provider, mastering DevOps and automation helps us to become more productive and stay competent in the market
 
 
 
