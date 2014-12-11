@@ -48,6 +48,12 @@ Netflix- Case Study
 
 Netflix- Case Study
 -------------------
+![netflix](../images/cloud/netflix/nf17.png)
+
+
+
+Netflix- Case Study
+-------------------
 ![netflix](../images/cloud/netflix/nf10.png)
 
 
