@@ -18,11 +18,67 @@ Why DevOps?
 
 
 
+Why DevOps?
+-----------
+
+> Rates Of Software Releases Are Increasing
+
+![DevOps](../images/cloud/devops/devops11.png)
+
+
+
+Why DevOps?
+-----------
+
+> Rates Of Software Releases Are Increasing
+
+![DevOps](../images/cloud/devops/devops12.png)
+
+
+
+Why DevOps?
+-----------
+
+> Rates Of Software Releases Are Increasing
+
+![DevOps](../images/cloud/devops/devops13.png)
+
+
+
+Why DevOps?
+-----------
+
+> Rates Of Software Releases Are Increasing
+
+![DevOps](../images/cloud/devops/devops14.png)
+
+
+
 Why DevOps? 
 -----------
 
 ![DevOps](../images/cloud/devops/devops1.png)
 
+
+
+Why DevOps? 
+-----------
+
+![DevOps](../images/cloud/devops/devops8.png)
+
+
+
+Why DevOps? 
+-----------
+
+![DevOps](../images/cloud/devops/devops9.png)
+
+
+
+Why DevOps? 
+-----------
+
+![DevOps](../images/cloud/devops/devops1.png)
 
 
 
@@ -74,3 +130,9 @@ Why DevOps?
 -----------
 
 ![DevOps](../images/cloud/devops/devops4.png)
+
+
+
+Where to start?
+---------------
+![Automate](../images/cloud/azure/azure43.png)

@@ -124,12 +124,144 @@ X-PLAT
 
 
 
-Azure DSC
----------
+Powershell - Desired state configurator
+---------------------------------------
+![Azure](../images/cloud/azure/azure35.png)
+
+
+
+PowerShell-DSC
+--------------
+![Azure](../images/cloud/azure/azure21.png)
+
+
+
+PowerShell-DSC
+--------------
+![Azure](../images/cloud/azure/azure22.png)
+
+
+
+PowerShell-DSC
+--------------
+![Azure](../images/cloud/azure/azure23.png)
+
+
+
+PowerShell-DSC
+--------------
+![Azure](../images/cloud/azure/azure24.png)
+
+
+
+PowerShell-DSC
+--------------
+![Azure](../images/cloud/azure/azure34.png)
+
+
+
+PowerShell-DSC
+--------------
+![Azure](../images/cloud/azure/azure25.png)
+
+
+
+PowerShell-DSC
+--------------
+![Azure](../images/cloud/azure/azure26.png)
+
+
+
+PowerShell-DSC
+--------------
+![Azure](../images/cloud/azure/azure27.png)
+
+
+
+PowerShell-DSC
+--------------
+![Azure](../images/cloud/azure/azure28.png)
+
+
+
+PowerShell-DSC
+--------------
+![Azure](../images/cloud/azure/azure29.png)
+
+
+
+PowerShell-DSC
+--------------
+![Azure](../images/cloud/azure/azure30.png)
+
+
+
+PowerShell-DSC
+--------------
+![Azure](../images/cloud/azure/azure31.png)
+
+
+
+PowerShell-DSC
+--------------
+![Azure](../images/cloud/azure/azure32.png)
+
+
+
+PowerShell-DSC
+--------------
+![Azure](../images/cloud/azure/azure33.png)
 
 
 
 Azure Automation
 ----------------
+![Azure](../images/cloud/azure/azure35.png)
 
 
+
+Azure Automation
+----------------
+![Azure](../images/cloud/azure/azure36.png)
+
+
+
+Azure Automation
+----------------
+![Azure](../images/cloud/azure/azure37.png)
+
+
+
+Azure Automation
+----------------
+![Azure](../images/cloud/azure/azure38.png)
+
+
+
+Azure Automation
+----------------
+![Azure](../images/cloud/azure/azure39.png)
+
+
+
+Azure Automation
+----------------
+![Azure](../images/cloud/azure/azure40.png)
+
+
+
+Azure Automation
+----------------
+![Azure](../images/cloud/azure/azure41.png)
+
+
+
+Azure Automation
+----------------
+![Azure](../images/cloud/azure/azure42.png)
+
+
+
+Where to start?
+---------------
+![Automate](../images/cloud/azure/azure43.png)

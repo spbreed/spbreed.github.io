@@ -410,3 +410,9 @@ Asgard
 Asgard
 -------
 ![Amazon](../images/cloud/aws/aws64.png)
+
+
+
+Where to start?
+---------------
+![Automate](../images/cloud/azure/azure43.png)
