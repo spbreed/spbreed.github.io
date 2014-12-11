@@ -77,6 +77,29 @@ Why DevOps?
 Why DevOps? 
 -----------
 
+![DevOps](../images/cloud/devops/devops1.png)
+
+
+
+Why DevOps? 
+-----------
+
+![DevOps](../images/cloud/devops/devops8.png)
+
+
+
+
+Why DevOps? 
+-----------
+
+![DevOps](../images/cloud/devops/devops9.png)
+
+
+
+
+Why DevOps? 
+-----------
+
 ![DevOps](../images/cloud/devops/devops3.png)
 
 
