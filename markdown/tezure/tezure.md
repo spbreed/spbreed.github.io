@@ -6,7 +6,8 @@ Internet Of Things (IOT)
 
 > The Internet of Things (IoT) is the interconnection of uniquely identifiable embedded computing devices within the existing Internet infrastructure
 
-> Every Industry is getting Smarter
+
+- Every Industry is getting Smarter
  - Smart Logistics
  - Smart Home
  - Smart Industries
@@ -14,7 +15,6 @@ Internet Of Things (IOT)
  - Smart Entertainment
 
 With number of internet connected devices is exploding, there is a need for enabling and controlling services remotely.
-
 
 
 Why IOT
@@ -31,6 +31,7 @@ Tezure - SpyCam
 
 - Mobile controlled Surveillance Camera
 ![Scenario](images/tezure_scenario.jpg)
+
 
 Complexities
 ------------
@@ -58,6 +59,7 @@ Demo
 <h3>Tezure - SpyCam Demo</h3>
 [![Tezure-SpyCam Demo](https://github.com/spbreed/tezure/blob/master/images/TezureDevice_youtube.png)](http://www.youtube.com/watch?v=MZK7aLQwSCE)
 
+
 Hello Tessel!
 -------------
 ![Architecture](images/tessel_device.jpg)
@@ -65,6 +67,7 @@ Hello Tessel!
 - It's Node-compatible and ships with Wifi built in. 
 - Its easier than ever make physical devices that connect to the web.
 - Bridges the gap between Embedded devices and Web development
+
 
 What Azure Offers
 ------------------
@@ -83,9 +86,11 @@ What PhoneGap Offers
 - Mobile Apps can be created using HTML, Javascript and CSS
 - PhoneGap Build takes the pain out of compiling PhoneGap apps. Get app-store ready apps without the headache of maintaining native SDKs. 
 
+
 Tezure SpyCam - Architecture
 ----------------------------
 ![Architecture](images/tezure_design.jpg)
+
 
 - Tessel
   ------
@@ -105,11 +110,13 @@ Tezure SpyCam - Architecture
     ````
     [Source Code](Tezure.Tessel/index.js)
 
+
 - Azure service bus
   -----------------
 	- Azure queue receives messages from the Mobile applications and authenticated via SAS token
 	- Azure Blob storage receives Images from tessel devices and authenticated via SAS
 	- CORS rules can be added to Azure storage to enable X-domain requests
+
 
 - PhoneGap App
   ------------
@@ -117,6 +124,7 @@ Tezure SpyCam - Architecture
 	- Polls the Azure Storage to retreive image with DeviceID and time stamp
 	- Built with end to end javascript 
 	[Source Code](Tezure.PhoneGap\tezure\www\index.html)
+
 
 PreRequisites
 -------------
