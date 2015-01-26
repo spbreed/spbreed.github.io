@@ -7,6 +7,7 @@ Internet Of Things (IOT)
 > The Internet of Things (IoT) is the interconnection of uniquely identifiable embedded computing devices within the existing Internet infrastructure
 
 
+
 - Every Industry is getting Smarter
  - Smart Logistics
  - Smart Home
