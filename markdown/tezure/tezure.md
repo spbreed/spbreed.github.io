@@ -8,7 +8,8 @@ Internet Of Things (IOT)
 
 
 
-- Every Industry is getting Smarter
+Every Industry is getting Smarter
+---------------------------------
  - Smart Logistics
  - Smart Home
  - Smart Industries
@@ -16,6 +17,7 @@ Internet Of Things (IOT)
  - Smart Entertainment
 
 With number of internet connected devices is exploding, there is a need for enabling and controlling services remotely.
+
 
 
 Why IOT
@@ -27,11 +29,13 @@ Why IOT
 - Cost efficient
 
 
+
 Tezure - SpyCam
 ===============
 
 - Mobile controlled Surveillance Camera
-![Scenario](images/tezure_scenario.jpg)
+![Scenario](images/tezure/tezure_scenario.jpg)
+
 
 
 Complexities
@@ -45,6 +49,7 @@ Complexities
 - Scalability
 
 
+
 Keep it simple
 --------------
 - Cost efficient
@@ -55,19 +60,22 @@ Keep it simple
 - REST based access to Azure Service bus/Azure Blobs 
 
 
+
 Demo
 ----
 <h3>Tezure - SpyCam Demo</h3>
-[![Tezure-SpyCam Demo](https://github.com/spbreed/tezure/blob/master/images/TezureDevice_youtube.png)](http://www.youtube.com/watch?v=MZK7aLQwSCE)
+[![Tezure-SpyCam Demo](https://github.com/spbreed/tezure/blob/master/images/tezure/tezure/TezureDevice_youtube.png)](http://www.youtube.com/watch?v=MZK7aLQwSCE)
+
 
 
 Hello Tessel!
 -------------
-![Architecture](images/tessel_device.jpg)
+![Architecture](images/tezure/tezure/tessel_device.jpg)
 - Tessel is a microcontroller that runs JavaScript. 
 - It's Node-compatible and ships with Wifi built in. 
 - Its easier than ever make physical devices that connect to the web.
 - Bridges the gap between Embedded devices and Web development
+
 
 
 What Azure Offers
@@ -81,6 +89,7 @@ What Azure Offers
 - Supports Async access using NodeJS/Javascript 
 
 
+
 What PhoneGap Offers
 --------------------
 - PhoneGap is a free and open source framework that allows you to create X-Plat mobile apps using Web technologies
@@ -88,9 +97,11 @@ What PhoneGap Offers
 - PhoneGap Build takes the pain out of compiling PhoneGap apps. Get app-store ready apps without the headache of maintaining native SDKs. 
 
 
+
 Tezure SpyCam - Architecture
 ----------------------------
-![Architecture](images/tezure_design.jpg)
+![Architecture](images/tezure/tezure_design.jpg)
+
 
 
 - Tessel
@@ -112,11 +123,13 @@ Tezure SpyCam - Architecture
     [Source Code](Tezure.Tessel/index.js)
 
 
+
 - Azure service bus
   -----------------
 	- Azure queue receives messages from the Mobile applications and authenticated via SAS token
 	- Azure Blob storage receives Images from tessel devices and authenticated via SAS
 	- CORS rules can be added to Azure storage to enable X-domain requests
+
 
 
 - PhoneGap App
@@ -127,6 +140,7 @@ Tezure SpyCam - Architecture
 	[Source Code](Tezure.PhoneGap\tezure\www\index.html)
 
 
+
 PreRequisites
 -------------
 - Tessel Board + camera module ($125) [Tessel Shop](https://shop.tessel.io/) 
@@ -135,6 +149,7 @@ PreRequisites
 	- Service bus Queues - $10/mo (12.5 Million Ops) [Service Bus Pricing](http://azure.microsoft.com/en-us/pricing/details/service-bus/) 
 	- Blob storage - $0.024 per GB  [Storage Pricing](http://azure.microsoft.com/en-us/pricing/details/storage/) 
 - Mobile Device
+
 
 
 Few Gotcha's
